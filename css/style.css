@@ -8,24 +8,24 @@ header{
 	height: 100px;
 }
 section{
-	width: 70%;
+	width: 100%;
 	height: 500px;
 	float: left;
 	background: #f0f0f0;
 	margin-top: 15px;
 }
 aside{
-	width: 28%;
+	width: 100%;
 	height: 500px;
 	float: right;
 	background: #98aed6;
 	margin-top: 15px;
 }
-@media (max-width: 768px){
+@media (min-width: 768px){
 	section {
-		width: 100%;
+		width: 70%;
 	}
 	aside {
-		width: 100%;
+		width: 28%;
 	}
 }
